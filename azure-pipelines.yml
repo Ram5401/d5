@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: Rampc
+pool: Rampc
 
 steps:
 - task: Maven@3
